@@ -5,7 +5,9 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "serve": "serve public"
+    "serve": "serve public",
+    "build": "webpack src/main.js public/js/bundle.js",
+    "watch": "webpack -w src public/js/bundle.js"
   },
   "repository": {
     "type": "git",
