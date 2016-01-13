@@ -1,0 +1,21 @@
+{
+  "name": "simple-react",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pcanterini/simple-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pcanterini/simple-react/issues"
+  },
+  "homepage": "https://github.com/pcanterini/simple-react#readme"
+}
