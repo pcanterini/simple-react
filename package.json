@@ -5,17 +5,20 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "serve public"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pcanterini/simple-react.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Pedro Canterini",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/pcanterini/simple-react/issues"
   },
-  "homepage": "https://github.com/pcanterini/simple-react#readme"
+  "homepage": "https://github.com/pcanterini/simple-react#readme",
+  "devDependencies": {
+    "serve": "^1.4.0"
+  }
 }
