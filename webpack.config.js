@@ -1,6 +1,7 @@
 var path = require('path');
 
 module.exports = {
+  devtool: 'source-map', // dev only, also slower
   entry: './src/main',
   output: {
     path: path.join(__dirname, 'public/js'),
