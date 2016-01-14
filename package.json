@@ -5,7 +5,7 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "start": "npm run serve & npm run watch",
+    "start": "parallelshell 'npm run serve' 'npm run watch'",
     "serve": "serve public",
     "watch": "webpack -w",
     "build": "webpack"
@@ -26,6 +26,7 @@
     "babel-loader": "^6.2.1",
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
+    "parallelshell": "^2.0.0",
     "react": "^0.14.6",
     "react-dom": "^0.14.6",
     "serve": "^1.4.0"
