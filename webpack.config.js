@@ -11,6 +11,10 @@ module.exports = {
       test: /\.jsx?$/,
       loader: 'babel-loader',
       include: path.join(__dirname, 'src')
+    }, {
+      test: /\.scss$/,
+      loader: 'style!css!sass',
+      include: path.join(__dirname, 'src')
     }]
   }
 };
