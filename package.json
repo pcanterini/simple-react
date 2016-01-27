@@ -1,6 +1,6 @@
 {
   "name": "simple-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "private": true,
   "main": "index.js",
@@ -8,7 +8,8 @@
     "start": "parallelshell 'npm run serve' 'npm run watch'",
     "serve": "serve public",
     "watch": "webpack -w",
-    "build": "webpack"
+    "build": "webpack",
+    "test": "echo 'no tests...'"
   },
   "repository": {
     "type": "git",
